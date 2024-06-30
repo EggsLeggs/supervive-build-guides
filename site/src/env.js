@@ -24,7 +24,7 @@ export const env = createEnv({
    * middlewares) or client-side so we need to destruct manually.
    */
   runtimeEnv: {
-    NEXT_PUBLIC_SITE_URL: process.env.VERCEL_URL || process.env.NEXT_PUBLIC_SITE_URL,
+    NEXT_PUBLIC_SITE_URL: `https://${process.env.NEXT_PUBLIC_VERCEL_URL}` || process.env.NEXT_PUBLIC_SITE_URL,
     DIRECTUS_URL: process.env.DIRECTUS_URL,
   },
   /**

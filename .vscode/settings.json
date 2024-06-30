@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "search.useIgnoreFiles": false,
+  "search.useParentIgnoreFiles": false
+}

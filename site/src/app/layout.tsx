@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "./_components/themeProvider";
 import Link from "next/link";
 import NavSearch from "./_components/navSearch";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
